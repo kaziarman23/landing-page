@@ -77,12 +77,18 @@
 }
 
 .content_1_lside input{
+    cursor: pointer;
     border: 1px solid black;
     width: 90px;
     height: 30px;
     border-radius: 10px;
     background-color: #3882f6;
     color: white;
+}
+
+.content_1_lside input:hover{
+    color: black;
+    background-color: orange;
 }
 
 .content_1_rside{
@@ -252,6 +258,7 @@
 }
 
 .con4_rside input{
+    cursor: pointer;
     color: white;
     background-color: #3882f6;
     margin-top: 22px;
@@ -263,6 +270,7 @@
 }
 
 .con4_rside input:hover{
+    color: black;
     background-color: orange;
 }
 
